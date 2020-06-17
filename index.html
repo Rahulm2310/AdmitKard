@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AdmitKard</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootswatch/4.5.0/flatly/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+      <a class="navbar-brand" href="#">AdmitKard</a>
+    </nav>
+    <div class="container">
+      <form class="form-group m-4" action="otp.html" method="get">
+        <label class="control-label mb-3">Enter your mobile number</label>
+        <div class="form-group">
+          <div class="input-group mb-3">
+            <div class="input-group-prepend">
+              <select class="input-group-text" name="numCode">
+                <option>+91</option>
+                <option>+358</option>
+                <option>+355</option>
+                <option>+213</option>
+                <option>+1</option>
+                <option>+376</option>
+                <option>+244</option>
+                <option>+374</option>
+                <option>+297</option>
+                <option>+61</option>
+                <option>+43</option>
+                <option>+973</option>
+                <option>+880</option>
+                <option>+32</option>
+                <option>+375</option>
+                <option>+501</option>
+                <option>+975</option>
+                <option>+387</option>
+                <option>+55</option>
+                <option>+246</option>
+                <option>+235</option>
+                <option>+56</option>
+                <option>+57</option>
+                <option>+45</option>
+                <option>+20</option>
+                <option>+33</option>
+                <option>+49</option>
+                <option>+45</option>
+                <option>+852</option>
+                <option>+354</option>
+                <option>+62</option>
+                <option>+98</option>
+              </select>
+            </div>
+            <input
+              name="mobile"
+              type="text"
+              class="form-control mobile"
+              aria-label="Amount (to the nearest dollar)"
+              required
+            />
+          </div>
+        </div>
+        <button type="submit" class="btn btn-primary send-otp">Send OTP</button>
+      </form>
+    </div>
+    <footer><p>Copyrights &COPY; AdmitKard</p></footer>
+
+    <!-- scripts -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.js"
+      integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
